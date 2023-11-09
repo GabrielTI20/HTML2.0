@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+
+    background-image: url('./imagem/fundo.jpg');
+    /* Substitua com o caminho correto da sua imagem */
+    background-size: cover;
+    /* Garante que a imagem de fundo cubra toda a página */
+    background-repeat: no-repeat;
+    /* Impede a repetição da imagem */
+    background-attachment: fixed;
+    /* A imagem de fundo não rola com a página */
+
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: black;
+    /* Cor de fundo preta para a navbar */
+    text-align: center;
+}
+
+.navbar a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #555;
+    /* Mudança de cor ao passar o mouse */
+    color: white;
+}
+
+
+.titulo {
+    /* cor do titulo  */
+    color: rgb(204, 0, 255);
+    align-content: center;
+    text-align: center;
+
+}
+
+.parceiro {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+}
+.logo{
+    margin: 0 15px;
+    vertical-align: middle;
+    width: 100px;
+    /* Tamanho das logos */
+    height: auto;
+    /* auto ajuste */
+
+}
